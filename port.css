@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(to bottom,
+     #69818d, #afb3b7, #0d1f23, #5a636a,
+      #132e35, #2d4a53);
+     margin: 0%;
+     
+    
+    
+}
+header {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+}
+header> a{
+    color: #ccd0cf;
+    padding: 10px 20px;
+}
+.Tulley {
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+}
+#gitcat {
+    border-radius: 50px;
+    width: 100px;
+
+    
+}
+.socials {
+    border-radius: 50px;
+    width: 100px;
+    padding: 10px;
+    height: 70px;
+}
+
+
+
+ article{
+    text-align: center;
+    color: #fde8d3;
+ }
+ .bx{
+    width: 200px;
+    height: 100px;
+    background-color:#0d1f23;
+    margin: 20px;
+    float:left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
