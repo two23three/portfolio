@@ -6,19 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tulley software services</title>
     <link rel="stylesheet" href="port.css">
+
 </head>
 
 <body>
-    <header>
+
+ <header>
     <h1>Tulley Mwenda Mutea</h1>
     
-    <a href="#intro">intro</a>
-    <a href="#mystacks">stacks</a>
-    <a href="#github">github</a>
-    <a href="#services">services</a>
-    <a href="#contacts">contact</a>
-    
-   </header>
+    <div class="navigation">
+      <ul>
+        <li class="list active">
+          <a href="#intro">
+            <span class="icon">
+                <ion-icon name="accessibility-outline"></ion-icon>
+            </span>
+            <span class="text">About me</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#">
+              <span class="icon">
+                  <ion-icon name="american-football-outline"></ion-icon>
+              </span>
+              <span class="text">Hobbies</span>
+          </a>
+        </li>
+        <li class="list">
+            <a href="#">
+                <span class="icon">
+                    <ion-icon name="file-tray-stacked-outline"></ion-icon>
+                </span>
+                <span class="text">My Stacks</span>
+            </a>
+        </li>
+        <li class="list">
+          <a href="#">
+              <span class="icon">
+                  <ion-icon name="layers-outline"></ion-icon>
+              </span>
+              <span class="text">Github repository</span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#">
+              <span class="icon">
+                  <ion-icon name="build-outline"></ion-icon> 
+              </span>
+              <span class="text">My services</span>
+          </a>
+       </li>
+       <li class="list">
+          <a href="#">
+             <span class="icon">
+                 <ion-icon name="megaphone-outline"></ion-icon>
+             </span>
+             <span class="text">contacts</span>
+          </a>
+       </li>
+       <div class="indicator"></div>
+     </ul>
+    </div>
+
+ </header>
+   
    
     
     <article>
@@ -35,7 +86,7 @@
         im a born leader with a deep sense of passion and righteousness. 
         <img class="Tulley" src="images/spiritanimal.jpg" title="spiritanimal" alt="lion">
     </p>
-    <h3>Hobbies</h3>
+    <h3 id="Hobbies">Hobbies</h3>
     <p>
      i love listening to music,hiking and camping,reading books and cooking
      avid weightlifter open to trying new things i also love dogs.
@@ -81,13 +132,14 @@
         <a href="mailto:tulleyteyez@gmail.com">
             <img class="socials" src="images/gmail-icon.webp" alt=" gmail logo">
         </a>
-         
+       </div>
 
-        </div>
+    
 
     </article>
     </footer>
-   
-    
+   <script src="port.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
